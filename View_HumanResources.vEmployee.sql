@@ -17,14 +17,7 @@ SELECT
     ,pnt.[Name] AS [PhoneNumberType]
     ,ea.[EmailAddress]
     ,p.[EmailPromotion]
-    ,a.[AddressLine1]
-    ,a.[AddressLine2]
-    ,a.[City]
-    ,sp.[Name] AS [StateProvinceName] 
-    ,a.[PostalCode]
-    ,cr.[Name] AS [CountryRegionName] 
-    ,p.[AdditionalContactInfo]
-FROM [HumanResources].[Employee] e
+   FROM [HumanResources].[Employee] e
 	INNER JOIN [Person].[Person] p
 	ON p.[BusinessEntityID] = e.[BusinessEntityID]
     INNER JOIN [Person].[BusinessEntityAddress] bea 

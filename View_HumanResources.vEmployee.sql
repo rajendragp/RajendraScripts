@@ -16,7 +16,7 @@ SELECT
     ,pp.[PhoneNumber]
     ,pnt.[Name] AS [PhoneNumberType]
     ,ea.[EmailAddress]
-    ,p.[EmailPromotion]
+    
    FROM [HumanResources].[Employee] e
 	INNER JOIN [Person].[Person] p
 	ON p.[BusinessEntityID] = e.[BusinessEntityID]

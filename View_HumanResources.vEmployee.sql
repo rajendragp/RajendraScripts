@@ -15,7 +15,7 @@ SELECT
     ,e.[JobTitle]  
     ,pp.[PhoneNumber]
     ,pnt.[Name] AS [PhoneNumberType]
-    ,ea.[EmailAddress]
+    
     
    FROM [HumanResources].[Employee] e
 	INNER JOIN [Person].[Person] p

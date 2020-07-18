@@ -12,8 +12,7 @@ SELECT
     ,p.[MiddleName]
     ,p.[LastName]
     ,p.[Suffix]
-    ,e.[JobTitle]  
-    --,pp.[PhoneNumber] Columns not required
+    
 
 FROM [HumanResources].[Employee] e
 	INNER JOIN [Person].[Person] p

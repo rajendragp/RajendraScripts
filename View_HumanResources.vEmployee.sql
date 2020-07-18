@@ -13,10 +13,7 @@ SELECT
     ,p.[LastName]
     ,p.[Suffix]
     ,e.[JobTitle]  
-    ,pp.[PhoneNumber]
-    ,pnt.[Name] AS [PhoneNumberType]
-    ,ea.[EmailAddress]
-    ,p.[EmailPromotion]
+    --,pp.[PhoneNumber] Columns not required
 
 FROM [HumanResources].[Employee] e
 	INNER JOIN [Person].[Person] p

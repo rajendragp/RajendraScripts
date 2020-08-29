@@ -2,4 +2,4 @@ SELECT
   SERVERPROPERTY('BuildClrVersion') AS BuildClrVersion,
   SERVERPROPERTY('ProductLevel') AS ProductLevel,
   SERVERPROPERTY('ProductVersion') AS ProductVersion,
-SERVERPROPERTY('ProductVersion') AS ProductVersionew;
+--Hi, Adding a new comment in the Ram branch

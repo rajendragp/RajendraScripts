@@ -1,0 +1,1 @@
+SELECT name from sys.databases where id>4

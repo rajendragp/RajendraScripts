@@ -23,7 +23,7 @@ $i=1
 foreach($service in $svc)
 {
 if ($svc[$i].name -eq "MSSQLSERVER" -or
-    $svc[$i].name -eq "SQLSERVERAGENT" -or
+    $svc[$i].name -eq "SQLSERVERAGENT" )
         {
         if($svc[$i].status -eq "Stopped")
         {

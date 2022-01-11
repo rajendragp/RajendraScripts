@@ -12,6 +12,7 @@ foreach ($ipAddress in $Tcp.IPAddresses)
 {
     $ipAddress.IPAddressProperties["TcpDynamicPorts"].Value = ""
     $ipAddress.IPAddressProperties["TcpPort"].Value = "1222"  #Specify the SQL port number to set 
+    Write-Output "SQL Server static port updated"
 }
 $Tcp.Alter()
 

@@ -1,4 +1,5 @@
 --https://www.sqlshack.com/analyze-sql-server-database-performance-using-t-sql/
+--https://www.sqlshack.com/what-is-causing-database-slowdowns/
 
 USE MASTER
 GO
